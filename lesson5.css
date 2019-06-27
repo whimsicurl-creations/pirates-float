@@ -114,16 +114,26 @@ section {
 
 /* Mobile */
 @media (max-width: 599px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
     article {
         width: 100%;
         margin: 0;
         padding: 5px;
+    }
+    .content-wrapper {
+        width: 98%;
     }
     #header-img {
         max-width: 200px;
         margin-top: 5px;
         margin-left: calc(50% - 100px);
         margin-bottom: 15px;
+    }
+    section {
+        min-height: 500px;
     }
     #main {
         float: none;
